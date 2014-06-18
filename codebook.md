@@ -21,10 +21,12 @@ A case (a line of the dataset) consists in the numerous measurements from the gy
 
 # Variables (columns)
 The variables are the numerous measurements from the gyroscope and the accelerometer of a smartphone. The tidy datasets contains only the mean and standard deviation data from the original data.
-## units : the data has been scaled by dividing by the range, and when you divide units by the same units, the units are cancelled.
+## units
+The data has been scaled by dividing by the range, and when you divide units by the same units, the units are cancelled.
 The variables beginning with 't' are in the time domain but without units.
 The variables beginning with 'f' are in the frequency domain after a fourier transform, but without units.
-## Names : e.g. tGravityAcc-mean()-X tGravityAcc-mean()-Y
+## Names
+e.g. tGravityAcc-mean()-X tGravityAcc-mean()-Y
 
 # Source of the original data:
 UCI Machine Learning Repository
