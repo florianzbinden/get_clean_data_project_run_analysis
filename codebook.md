@@ -8,11 +8,17 @@ Ultimately the goal of the data is to recognize what activity (sitting, walking,
 
 # Activity (from activity_labels.txt) :
 1 WALKING
+
 2 WALKING_UPSTAIRS
+
 3 WALKING_DOWNSTAIRS
+
 4 SITTING
+
 5 STANDING
+
 6 LAYING
+
 In the data files, the activities are described by the numbers. The numbers 1 to 6 are taken from y_test.txt and y_train.txt.
 
 # Subjects : 
