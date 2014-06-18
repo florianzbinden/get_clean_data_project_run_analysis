@@ -1,4 +1,5 @@
-# codebook get_clean_data_project_run_analysis
+# codebook 
+# get_clean_data_project_run_analysis
 ===================================
 
 
@@ -14,7 +15,8 @@ Ultimately the goal of the data is to recognize what activity (sitting, walking,
 6 LAYING
 In the data files, the activities are described by the numbers. The numbers 1 to 6 are taken from y_test.txt and y_train.txt.
 
-# Subjects : numbers 1 to 30 (from subject_test.txt and subject_train.txt)
+# Subjects : 
+numbers 1 to 30 (from subject_test.txt and subject_train.txt)
 
 # Observations (or cases)
 A case (a line of the dataset) consists in the numerous measurements from the gyroscope and the accelerometer of a smartphone. The measurements are related to one person (subject, numbered from 1 to 30, split into two groups – train and test - originally) performing one activity (out of 6). Several measurements were gathered for a single subject performing a single activity. But the tidy dataset averages the measurements for one single subject performing one single activity, therefore there are 30*6=180 cases (lines) in the tidy dataset.
